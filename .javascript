@@ -8,7 +8,7 @@ btn.addEventListener("click", function(){
 
 	var text = inputBox.value
 
-	var tokens = text.split(',')
+	var tokens = text.split(',') .map(k => k.trim()
 		tokens.sort()
 		showValues.innerHTML=""
 		for(var token of tokens){
