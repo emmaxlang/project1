@@ -16,7 +16,6 @@ btn.addEventListener("click", function(){
 			showValues.appendChild(toAppend)
 		}
 
-	var showValues =  tokens.join('  ')
 		console.log(showValues)
 
 }) 
