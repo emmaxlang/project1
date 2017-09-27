@@ -1,6 +1,7 @@
 var inputBox = document.getElementById('input-box')
 var btn = document.getElementById('submit-input-box')
 var ol = document.getElementById('ordered')
+var showValue = document.getElementById('show-value')
 
 btn.addEventListener("click", function(){
 
